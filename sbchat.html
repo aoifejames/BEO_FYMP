@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Chatroom Skies Behind</title>
+    
+<style>
+
+body {
+    background: linear-gradient(#09B4BA, #000000);
+    margin: 0;
+    background-attachment: fixed;
+     }
+
+#return {
+    color: #000000;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+    font-size: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    top: 50px;
+    text-align: center;
+}   
+
+.from {
+  background-color: #dcdcdc;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.to {
+  background-color: #a9a9a9;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img {
+  float: left;
+  max-width: 50px;
+  margin-right: 20px;
+}
+
+p {
+  font-family: sans-serif;
+  color: #000000;
+  margin-top: 0px;
+}
+
+#text {
+  font-family: sans-serif;
+  color: #000000;
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
+  position: fixed;
+}
+
+#send {
+  bottom: 0px;
+  position: fixed;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  width: 100%;
+  height: 30px;
+}
+    
+</style>
+
+</head>
+    
+
+<body>
+
+<form>
+ <input type="button" id="return" value="RETURN TO MESSAGES" onclick="history.back()">
+</form>
+
+<div class="heading">
+<h1>Say hi to <a href="band5.html">Skies Behind</a>!</h1>
+</div>
+    
+<div class="from">
+  <img src="images/skiesbehindpfp.jpg" alt="Skies Behind" class="img">
+  <p>Hey! Just got your tshirt order there. We wanted to toss in a wristband or some stickers since you've been to a few shows if you've any preference?</p>
+</div>
+
+<div class="to">
+  <img src="images/useraoife.jpg" alt="Me" class="img">
+  <p>Ahhhh thanks a mil! I'd love a wristband so if there's one going. Best of luck with the gig this weekend!</p>
+</div>
+
+<div class="from">
+  <img src="images/skiesbehindpfp.jpg" alt="Skies Behind" class="img">
+  <p>Class, Joe's gonna sort that out so tomorrow and it shouldn't be long getting to you. Cheers Aoife!</p>
+</div>
+
+<form> 
+<textarea id="text" placeholder="Send a message!">
+</textarea>
+<input type="submit" value="SEND" id="send"></form>
+    
+</body>
+    
+</html>
